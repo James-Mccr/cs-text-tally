@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">  
+    <PropertyGroup>
+        <OutputType>Library</OutputType>
+        <TargetFrameworks>net6.0</TargetFrameworks>
+    </PropertyGroup>  
+    <ItemGroup>
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
+      <PackageReference Include="NUnit" Version="3.13.3" />
+      <PackageReference Include="NUnit3TestAdapter" Version="4.3.1" />
+      <PackageReference Include="WireMock.Net" Version="1.5.13" />
+    </ItemGroup>  
+    <ItemGroup>
+      <ProjectReference Include="..\TextTally.Common.Http\TextTally.Common.Http.csproj" />
+      <ProjectReference Include="..\TextTally.Common.Tests\TextTally.Common.Tests.csproj" />
+    </ItemGroup>
+</Project>  
